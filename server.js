@@ -4,9 +4,9 @@ const port=process.env.PORT || 4321
 
 server.use(express.static('public'));
 // app.use('/',express.static(__dirname+'/public')) 
-server.get('/',(req,res)=>{
-    res.send('HELLO')
-})
+// server.get('/',(req,res)=>{
+//     res.send('HELLO')
+// })
 
 server.get('/hi',(req,res)=>{
     res.send('Hi!')
